@@ -4,6 +4,7 @@ import "./App.css";
 
 import Quotes from "./Quotes";
 import Lamp from "./Lamp";
+import NameForm from "./Formulaire"
 
 class App extends Component {
   constructor(props) {
@@ -32,6 +33,7 @@ class App extends Component {
         </button>
         <Lamp on />
         <Lamp />
+        <NameForm/>
         <Quotes/>
 
       </div>
